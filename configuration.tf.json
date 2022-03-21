@@ -32,14 +32,14 @@
                             "hostname": "manager",
                             "type": "fmg",
                             "interfaces": [
-                                { "name": "trust", "subnet": "trust", "ipv4_index": 17  }
+                                { "name": "mgmt", "subnet": "trust", "ipv4_index": 17  }
                             ]
                         },
                         {
                             "hostname": "analyzer",
                             "type": "faz",
                             "interfaces": [
-                                { "name": "trust", "subnet": "trust", "ipv4_index": 16 }
+                                { "name": "mgmt", "subnet": "trust", "ipv4_index": 16 }
                             ]
                         }
                     ]
