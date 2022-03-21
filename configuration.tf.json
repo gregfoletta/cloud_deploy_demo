@@ -3,8 +3,8 @@
         "sites": {
             "default": {
                 "hub_a" : {
-                    "dns_root": "dev.foletta.org",
-                    "cidr": "10.254.0.0/16",
+                    "dns_root": "prod.foletta.org",
+                    "cidr": "10.200.0.0/16",
                     "route_tables": [
                         { 
                             "name": "public",
