@@ -3,8 +3,8 @@
         "sites": {
             "default": {
                 "hub_a" : {
-                    "dns_root": "dev.foletta.org",
-                    "cidr": "10.254.0.0/16",
+                    "dns_root": "prod.foletta.org",
+                    "cidr": "10.200.0.0/16",
                     "route_tables": [
                         { 
                             "name": "public",
@@ -15,8 +15,7 @@
                         { 
                             "name": "private",
                             "subnets": [
-                                { "name": "trust", "ipv4_subnet": [ 8, 1 ], "public_ipv4": true },
-                                { "name": "another", "ipv4_subnet": [ 8, 2 ] }
+                                { "name": "trust", "ipv4_subnet": [ 8, 1 ], "public_ipv4": true }
                             ]
                         }
                     ],
