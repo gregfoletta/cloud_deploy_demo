@@ -1,7 +1,7 @@
 [submodule "licenses"]
 	path = licenses
 	url = git@github.com:gregfoletta/cloud_deploy_demo_licenses.git
-	branch = dev
+	branch = prod
 [submodule "ftnt_cloud_compiler"]
 	path = ftnt_cloud_compiler
 	url = git@github.com:gregfoletta/ftnt_cloud_compiler.git
