@@ -15,8 +15,7 @@
                         { 
                             "name": "private",
                             "subnets": [
-                                { "name": "trust", "ipv4_subnet": [ 8, 1 ], "public_ipv4": true },
-                                { "name": "another", "ipv4_subnet": [ 8, 2 ] }
+                                { "name": "trust", "ipv4_subnet": [ 8, 1 ], "public_ipv4": true }
                             ]
                         }
                     ],
