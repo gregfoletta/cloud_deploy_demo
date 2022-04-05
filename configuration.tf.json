@@ -43,34 +43,6 @@
                             ]
                         }
                     ]
-                },
-                "site_a" : {
-                    "dns_root": "dev.foletta.org",
-                    "cidr": "10.128.0.0/16",
-                    "route_tables": [
-                        { 
-                            "name": "public",
-                            "subnets": [
-                                { "name": "outside", "ipv4_subnet": [ 8, 0 ] }
-                            ]
-                        },
-                        { 
-                            "name": "private",
-                            "subnets": [
-                                { "name": "inside", "ipv4_subnet": [ 8, 1 ], "public_ipv4": true }
-                            ]
-                        }
-                    ],
-                    "devices": [
-                        {
-                            "hostname": "firewall",
-                            "type": "fgt",
-                            "interfaces": [
-                                { "name": "untrust", "subnet": "outside" },
-                                { "name": "trust", "subnet": "inside" }
-                            ]
-                        }
-                    ]
                 }
             }
         }
