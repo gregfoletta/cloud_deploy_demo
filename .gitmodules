@@ -5,4 +5,4 @@
 [submodule "licenses"]
 	path = licenses
 	url = git@github.com:gregfoletta/cloud_deploy_demo_licenses.git
-	branch = dev
+	branch = prod
