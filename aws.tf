@@ -1,0 +1,1 @@
+ftnt_cloud_compiler/configs/aws.tf
