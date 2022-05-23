@@ -4,7 +4,7 @@
             "default": {
                 "hub_a" : {
                     "dns_root": "dev.foletta.org",
-                    "cidr": "10.253.0.0/16",
+                    "cidr": "10.254.0.0/16",
                     "route_tables": [
                         { 
                             "name": "public",
